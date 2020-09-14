@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FoodTruckTracker' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+pod 'Kingfisher'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Analytics'
+pod 'CodableFirebase'
+pod 'SwiftLint'
+  # Pods for FoodTruckTracker
+
+  target 'FoodTruckTrackerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FoodTruckTrackerUITests' do
+    # Pods for testing
+  end
+
+end
